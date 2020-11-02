@@ -1,0 +1,103 @@
+@font-face{
+	font-family: roboto;
+	src: url(roboto.ttf);
+}
+body{
+	font-family: roboto;
+	background: #fff;
+	margin: 0;
+}
+nav {
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+	height: 10vh;
+	width: 100%;
+	position: fixed;
+	align-items: center;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+nav ul li{
+	list-style:  none;
+	display: inline-block;
+	margin-right: 3vh;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.1em;
+}
+
+
+
+/*CONTENT*/
+
+header{
+	width:  100%;
+	height: 100vh;
+}
+.bg{
+	width: 100%;
+	height: 100vh;
+	background: 
+	            url(1/img/aa.gif);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.content{
+	width: 65%;
+	height: 50%;
+	position: fixed;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.kolom{
+	margin: 10px;
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	overflow: hidden;
+	opacity: 1;
+
+}
+
+.kolom:hover{
+
+}
+
+.kolom .atas{
+	width: 100%;
+	height: 90%;
+	background: #34495e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.kolom .atas img{
+	width: 50%
+}
+.kolom .tengah{
+	width: 100%;
+	height: 30%;
+	background: #ecf0f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.kolom .bawah{
+	width: 100%;
+	height: 20%;
+	background: #7f8c8d;
+}
